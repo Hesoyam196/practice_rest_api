@@ -2,7 +2,7 @@ import datetime
 
 from sqlalchemy.orm import Session
 
-from . import models, schemas
+import models, schemas
 
 
 def get_item_by_name(db: Session, name: str):
